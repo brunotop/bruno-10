@@ -1,0 +1,73 @@
+//Exercicio Aula-9
+//Bruno de Freitas Leite
+
+// 1. resposta
+/*
+let array
+console.log('a. ', array);
+// a indefinido
+
+array = null;
+console.log('b. ', array);
+// b null
+
+array = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+console.log('c. ', array.length);
+// c 11 caracteres
+
+let i = 0;
+console.log('d. ', array[i]);
+// le o array 0, que resulta no 3
+
+array[i+1] = 19;
+console.log('e. ', array);
+//ele conta todas os caracteres dentro da variavel
+
+const valor = array[i+6];
+console.log('f. ', valor);
+// ele conta apartir do 0 e acrescenta 6 casas a diante
+
+// 2. resposta
+
+const frase = prompt("Digite uma frase");
+console.log(frase.toUpperCase().replaceAll("A", "I"), frase.length);
+// a frase original é "Subi num ônibus em Marrocos" ?
+// com esse codigo acima ficaria como
+// SUBI NUM ONUBUS EM MIRROCOS 27
+
+// Exercicio de escrita
+//exercicio 1
+
+let nome = prompt("Qual o seu nome?");
+console.log(nome);
+let email = prompt("Qual o seu email");
+console.log(email);
+console.log("O email", email, "foi cadastrado com sucesso. Seja Bem Vindo", nome);
+
+//exercicio 2
+
+let comida = ["lasanha", "salada", "aveia", "frango", "churrasco"];
+console.log("As minhas comidas preferidas sao", comida);
+console.log(comida[0]);
+console.log(comida[1]);
+console.log(comida[2]);
+console.log(comida[3]);
+console.log(comida[4]);
+comida[0] = prompt("Escolha uma comida");
+console.log(comida);
+
+
+//exercicio 3
+let tarefa0 = prompt("Me diga uma coisa que voce faz na sua rotina");
+let tarefa1 = prompt("Me diga uma outra coisa que voce faz na sua rotina");
+let tarefa2 = prompt("e por fim, me diga uma coisa que voce faz na sua rotina");
+console.log(tarefa0);
+console.log(tarefa1);
+console.log(tarefa2);
+let indice = Number(prompt("digite um indice de 0 a 2"));
+console.log(indice);
+let lista = [tarefa0, tarefa1, tarefa2];
+console.log("O indice", indice, "que voce escolheu diz que ele", lista[indice]);
+lista.splice(indice, 1);
+console.log(lista);
+*/
